@@ -1,0 +1,9 @@
+#pratos,#carrinho{
+    max-width:900px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.prato-single{
+    width: 33,3%;
+    padding: o 20px;
+}
