@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="espacolateral">
+        <div class="fundo">
+            <div class="vermelho">
+                <div class="branco">
+                    <img class="logo" width="200px" src="./img/WhatsApp Image 2021-07-13 at 13.28.17.jpeg" alt="logo">
+                    <h1 class="nome">Trattoria Primo Piato</h1>
+                    <h2 class="olaClientes">ola cliente</h2>
+                    <div class="carrinho"> 
+                        <img onclick="iniciaModalCarrinho('modal-carrinho')" class="imgDocarrinho"  src="./img/carrinho-de-compras.png" alt="carrinho">
+                    </div>
+                    <div class="aberto">
+                        <small>aberto das 10:00h as 2:00h</small>
+                        <a >Delivery</a>
+                        <img class="entrega" src="./img/entrega.png" alt="entrega">
+                    </div>
+                </div>
+                <a class="subMenu" href="">menu</a>
+                <a class="subMenu"  href="">Cadastros</a>
+                <a class="subMenu"  href="">Historias</a>
+            </div>
+        </div>
+        <div class="corpoBranco">
+            <div class="promocaoDaSemana">
+                <h2 class="proDoDia"></h2>
+                <div class="fundoDaImg">
+                    <div class="slider">
+                        <input class="aaa" type="radio" name="slider" id="">
+                        <div class="imgBx">
+                            <img width="94%" height="" src="http://s2.glbimg.com/EFoi-6iFchrfO3HXBJQMlpoknhM=/smart/e.glbimg.com/og/ed/f/original/2017/11/28/receita-macarrao-com-almondegas-vegano_01.jpg" alt="foto do prato">
+                            <div class="descricaoDoPrato">
+                            <h3>Promocao da segunda</h3>
+                            <p>Macarrão espaguet com almôndegas vegano é delicioso com o original</p>
+                            <a href="#">Mais informação</a>
+                            </div>
+                        </div>
+                        <input type="radio" name="slider" id="">
+                        <div class="imgBx">
+                            <img width="95%" height=""src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-macarrao-com-atum.jpg" alt="foto do prato">
+                            <div class="descricaoDoPrato">
+                            <h3>Promocao da terca</h3>
+                            <p>Macarrão parafuso com tomates e atum</p>
+                            <a href="#">Mais informação</a>
+                            </div>
+                        </div>
+                        <input type="radio" name="slider" id="">
+                        <div class="imgBx">
+                            <img width="95%" height="" src="https://img.itdg.com.br/tdg/images/recipes/000/173/054/162457/162457_original.jpg?mode=crop&width=710&height=400" alt="foto do prato">
+                            <div class="descricaoDoPrato">
+                            <h3>Promocao da quarta</h3>
+                            <p>Filé de frango grelhado com salada e macarrão integral</p>
+                            <a href="#">Mais informação</a>
+                            </div>
+                        </div>
+                        <input type="radio" name="slider" id="">
+                        <div class="imgBx">
+                            <img width="95%" height="" src="https://www.sabornamesa.com.br/media/k2/items/cache/9e9e1351d6a763151a8613c1dd10d427_XL.jpg" alt="foto do prato">
+                            <div class="descricaoDoPrato">
+                            <h3>Promocao da quinta</h3>
+                            <p>Macarrão espaguet a bolonhesa perfeitamente Italiano</p>
+                            <a href="#">Mais informação</a>
+                            </div>
+                        </div>
+                        <input type="radio" name="slider" id="">
+                        <div class="imgBx">
+                            <img width="95%" height=""  src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2019/04/ravioli-molho-4-queijos-1024x683.jpg" alt="foto do prato">
+                            <div class="descricaoDoPrato">
+                            <h3>Promocao da sexta</h3>
+                            <p>Macarrão Ravioli ao molho de 4 queijos </p>
+                            <a href="#">Mais informação</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="conteudoPromocional">
+                <div class="tituloPromocaoCartaoFidelidade">
+                    <h2>cartao fidelidade</h2>
+                </div>
+                <h3 class="subTitulosPromocionas">Pratos principas</h3>
+                <div id="promocaoCartaoFidelidade"></div>
+                <div class="sobrmesasCartaoFidelide"></div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-carrinho" class="modal-carrinho">
+        <div class="modalC">
+            <img onclick="fecharModalCarrinho('modal-carrinho')" class="botaoDeFechar" width="46px" src="./img/botao-x.png" alt="botao de fechar">
+            <h3>carrinho</h3>
+            <div id="carrinhoDeCompras">
+
+            </div>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
